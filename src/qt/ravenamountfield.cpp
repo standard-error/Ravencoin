@@ -217,7 +217,7 @@ Q_SIGNALS:
     void valueChanged();
 };
 
-#include <ravenamountfield.moc>
+#include <qt/ravenamountfield.moc>
 
 RavenAmountField::RavenAmountField(QWidget *parent) :
     QWidget(parent),

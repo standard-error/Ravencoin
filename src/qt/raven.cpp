@@ -271,7 +271,7 @@ private:
     void startThread();
 };
 
-#include <raven.moc>
+#include <qt/raven.moc>
 
 RavenCore::RavenCore():
     QObject()

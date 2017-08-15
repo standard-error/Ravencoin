@@ -1312,18 +1312,18 @@
   <customwidget>
    <class>QValidatedLineEdit</class>
    <extends>QLineEdit</extends>
-   <header>qvalidatedlineedit.h</header>
+   <header>qt/qvalidatedlineedit.h</header>
   </customwidget>
   <customwidget>
    <class>RavenAmountField</class>
    <extends>QLineEdit</extends>
-   <header>ravenamountfield.h</header>
+   <header>qt/ravenamountfield.h</header>
    <container>1</container>
   </customwidget>
   <customwidget>
    <class>AssetAmountField</class>
    <extends>QLineEdit</extends>
-   <header location="global">ravenamountfield.h</header>
+   <header location="global">qt/ravenamountfield.h</header>
   </customwidget>
  </customwidgets>
  <tabstops>

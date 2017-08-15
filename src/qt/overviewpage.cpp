@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <qt/overviewpage.h>
-#include <ui_overviewpage.h>
+#include <qt/forms/ui_overviewpage.h>
 
 #include <qt/ravenunits.h>
 #include <qt/clientmodel.h>
@@ -275,7 +275,7 @@ public:
     const PlatformStyle *platformStyle;
 
 };
-#include <overviewpage.moc>
+#include <qt/overviewpage.moc>
 #include <qt/ravengui.h>
 #include <QFontDatabase>
 

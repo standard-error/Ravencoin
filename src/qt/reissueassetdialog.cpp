@@ -5,7 +5,7 @@
 
 
 #include <qt/reissueassetdialog.h>
-#include <ui_reissueassetdialog.h>
+#include <qt/forms/ui_reissueassetdialog.h>
 #include <qt/platformstyle.h>
 #include <qt/walletmodel.h>
 #include <qt/assettablemodel.h>

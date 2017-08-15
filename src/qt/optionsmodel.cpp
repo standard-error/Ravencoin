@@ -18,7 +18,7 @@
 #include <net.h>
 #include <netbase.h>
 #include <txdb.h> // for -dbcache defaults
-#include <qt/intro.h> 
+#include <qt/intro.h>
 #include <qt/platformstyle.h>
 
 #ifdef ENABLE_WALLET

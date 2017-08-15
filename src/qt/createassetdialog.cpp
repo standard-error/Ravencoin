@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <qt/createassetdialog.h>
-#include <ui_createassetdialog.h>
+#include <qt/forms/ui_createassetdialog.h>
 #include <qt/platformstyle.h>
 #include <qt/walletmodel.h>
 #include <qt/addresstablemodel.h>

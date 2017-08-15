@@ -8,7 +8,7 @@
 #endif
 
 #include <qt/optionsdialog.h>
-#include <ui_optionsdialog.h>
+#include <qt/forms/ui_optionsdialog.h>
 
 #include <qt/ravenunits.h>
 #include <qt/guiutil.h>

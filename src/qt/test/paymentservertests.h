@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_TEST_PAYMENTSERVERTESTS_H
 #define RAVEN_QT_TEST_PAYMENTSERVERTESTS_H
 
-#include <qt/test/../paymentserver.h>
+#include <qt/paymentserver.h>
 
 #include <QObject>
 #include <QTest>
