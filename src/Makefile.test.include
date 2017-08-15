@@ -110,8 +110,9 @@ RAVEN_TESTS += \
 endif
 
 test_test_raven_SOURCES = $(RAVEN_TESTS) $(JSON_TEST_FILES) $(RAW_TEST_FILES)
-test_test_raven_CPPFLAGS = $(AM_CPPFLAGS) $(RAVEN_INCLUDES) -I$(builddir)/test/ $(TESTDEFS) $(EVENT_CFLAGS)
+test_test_raven_CPPFLAGS = $(AM_CPPFLAGS) $(RAVEN_INCLUDES) $(TESTDEFS) $(EVENT_CFLAGS)
 test_test_raven_LDADD =
+
 if ENABLE_WALLET
 test_test_raven_LDADD += $(LIBRAVEN_WALLET)
 endif
