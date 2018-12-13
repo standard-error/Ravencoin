@@ -1,5 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2016 The Raven Core developers
+// Copyright (c) 2009-2016 The Bitcoin Core developers
+// Copyright (c) 2017 The Raven Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -158,10 +159,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0x52;
-        pchMessageStart[1] = 0x41;
-        pchMessageStart[2] = 0x56;
-        pchMessageStart[3] = 0x4e;
+        pchMessageStart[0] = 0x52; // R
+        pchMessageStart[1] = 0x41; // A
+        pchMessageStart[2] = 0x56; // V
+        pchMessageStart[3] = 0x4e; // N
         nDefaultPort = 8767;
         nPruneAfterHeight = 100000;
 
@@ -197,10 +198,11 @@ public:
 
         chainTxData = ChainTxData{
             // Update as we know more about the contents of the Raven chain
-            1509572692, // * UNIX timestamp of last known number of transactions
-            1,          // * total number of transactions between genesis and that timestamp
+            // Stats as of 000000000000a72545994ce72b25042ea63707fca169ca4deb7f9dab4f1b1798 window size 43200
+            1543817453, // * UNIX timestamp of last known number of transactions
+            2033711,    // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            3.1         // * estimated number of transactions per second after that timestamp
+            0.1         // * estimated number of transactions per second after that timestamp
         };
 
         /** RVN Start **/
@@ -265,10 +267,10 @@ public:
         consensus.defaultAssumeValid = uint256S("0x00");
 
 
-        pchMessageStart[0] = 0x52;
-        pchMessageStart[1] = 0x56;
-        pchMessageStart[2] = 0x4E;
-        pchMessageStart[3] = 0x54;
+        pchMessageStart[0] = 0x52; // R
+        pchMessageStart[1] = 0x56; // V
+        pchMessageStart[2] = 0x4E; // N
+        pchMessageStart[3] = 0x54; // T
         nDefaultPort = 18770;
         nPruneAfterHeight = 1000;
 
@@ -368,10 +370,11 @@ public:
 
         chainTxData = ChainTxData{
             // Update as we know more about the contents of the Raven chain
-            1513705170, // * UNIX timestamp of last known number of transactions
-            1,          // * total number of transactions between genesis and that timestamp
+            // Stats as of 00000023b66f46d74890287a7b1157dd780c7c5fdda2b561eb96684d2b39d62e window size 43200
+            1543633332, // * UNIX timestamp of last known number of transactions
+            146666,     // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            3.1         // * estimated number of transactions per second after that timestamp
+            0.02        // * estimated number of transactions per second after that timestamp
         };
 
         /** RVN Start **/
@@ -434,10 +437,10 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        pchMessageStart[0] = 0x43;
-        pchMessageStart[1] = 0x52;
-        pchMessageStart[2] = 0x4F;
-        pchMessageStart[3] = 0x57;
+        pchMessageStart[0] = 0x43; // C
+        pchMessageStart[1] = 0x52; // R
+        pchMessageStart[2] = 0x4F; // O
+        pchMessageStart[3] = 0x57; // W
         nDefaultPort = 18444;
         nPruneAfterHeight = 1000;
 
