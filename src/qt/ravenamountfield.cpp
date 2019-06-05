@@ -3,12 +3,12 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "ravenamountfield.h"
+#include <qt/ravenamountfield.h>
 
-#include "ravenunits.h"
-#include "guiconstants.h"
-#include "qvaluecombobox.h"
-#include "platformstyle.h"
+#include <qt/ravenunits.h>
+#include <qt/guiconstants.h>
+#include <qt/qvaluecombobox.h>
+#include <qt/platformstyle.h>
 
 #include <QDebug>
 #include <QApplication>
@@ -217,7 +217,7 @@ Q_SIGNALS:
     void valueChanged();
 };
 
-#include "ravenamountfield.moc"
+#include <ravenamountfield.moc>
 
 RavenAmountField::RavenAmountField(QWidget *parent) :
     QWidget(parent),

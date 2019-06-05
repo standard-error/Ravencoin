@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_OVERVIEWPAGE_H
 #define RAVEN_QT_OVERVIEWPAGE_H
 
-#include "amount.h"
+#include <amount.h>
 
 #include <QSortFilterProxyModel>
 #include <QWidget>

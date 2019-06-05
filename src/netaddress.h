@@ -7,11 +7,11 @@
 #define RAVEN_NETADDRESS_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/raven-config.h"
+#include <config/raven-config.h>
 #endif
 
-#include "compat.h"
-#include "serialize.h"
+#include <compat.h>
+#include <serialize.h>
 
 #include <stdint.h>
 #include <string>

@@ -5,8 +5,8 @@
 #ifndef RAVEN_ASSETDB_H
 #define RAVEN_ASSETDB_H
 
-#include "fs.h"
-#include "serialize.h"
+#include <fs.h>
+#include <serialize.h>
 
 #include <string>
 #include <map>

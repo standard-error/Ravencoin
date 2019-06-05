@@ -7,7 +7,7 @@
 #ifndef RAVEN_SCRIPT_SIGN_H
 #define RAVEN_SCRIPT_SIGN_H
 
-#include "script/interpreter.h"
+#include <script/interpreter.h>
 
 class CKeyID;
 class CKeyStore;

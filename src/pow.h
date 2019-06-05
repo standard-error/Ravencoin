@@ -7,7 +7,7 @@
 #ifndef RAVEN_POW_H
 #define RAVEN_POW_H
 
-#include "consensus/params.h"
+#include <consensus/params.h>
 
 #include <stdint.h>
 

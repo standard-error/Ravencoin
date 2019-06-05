@@ -6,8 +6,8 @@
 #ifndef RAVEN_QT_TRANSACTIONRECORD_H
 #define RAVEN_QT_TRANSACTIONRECORD_H
 
-#include "amount.h"
-#include "uint256.h"
+#include <amount.h>
+#include <uint256.h>
 
 #include <QList>
 #include <QString>

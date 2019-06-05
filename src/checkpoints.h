@@ -6,7 +6,7 @@
 #ifndef RAVEN_CHECKPOINTS_H
 #define RAVEN_CHECKPOINTS_H
 
-#include "uint256.h"
+#include <uint256.h>
 
 #include <map>
 

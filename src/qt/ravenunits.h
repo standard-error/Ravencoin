@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_RAVENUNITS_H
 #define RAVEN_QT_RAVENUNITS_H
 
-#include "amount.h"
+#include <amount.h>
 
 #include <QAbstractListModel>
 #include <QString>

@@ -7,10 +7,10 @@
 #define RAVEN_COMPAT_ENDIAN_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/raven-config.h"
+#include <config/raven-config.h>
 #endif
 
-#include "compat/byteswap.h"
+#include <compat/byteswap.h>
 
 #include <stdint.h>
 

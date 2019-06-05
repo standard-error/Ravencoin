@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_ASSETCONTROLDIALOG_H
 #define RAVEN_QT_ASSETCONTROLDIALOG_H
 
-#include "amount.h"
+#include <amount.h>
 
 #include <QAbstractButton>
 #include <QAction>

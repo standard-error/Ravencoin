@@ -7,7 +7,7 @@
 #ifndef RAVEN_SCRIPT_SIGCACHE_H
 #define RAVEN_SCRIPT_SIGCACHE_H
 
-#include "script/interpreter.h"
+#include <script/interpreter.h>
 
 #include <vector>
 

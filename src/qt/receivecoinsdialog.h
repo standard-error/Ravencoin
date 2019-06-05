@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_RECEIVECOINSDIALOG_H
 #define RAVEN_QT_RECEIVECOINSDIALOG_H
 
-#include "guiutil.h"
+#include <qt/guiutil.h>
 
 #include <QDialog>
 #include <QHeaderView>

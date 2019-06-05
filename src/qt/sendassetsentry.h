@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_SENDASSETSENTRY_H
 #define RAVEN_QT_SENDASSETSENTRY_H
 
-#include "walletmodel.h"
+#include <qt/walletmodel.h>
 
 #include <QStackedWidget>
 

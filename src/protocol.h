@@ -11,10 +11,10 @@
 #ifndef RAVEN_PROTOCOL_H
 #define RAVEN_PROTOCOL_H
 
-#include "netaddress.h"
-#include "serialize.h"
-#include "uint256.h"
-#include "version.h"
+#include <netaddress.h>
+#include <serialize.h>
+#include <uint256.h>
+#include <version.h>
 
 #include <stdint.h>
 #include <string>

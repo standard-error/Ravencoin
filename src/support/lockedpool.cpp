@@ -3,11 +3,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "support/lockedpool.h"
-#include "support/cleanse.h"
+#include <support/lockedpool.h>
+#include <support/cleanse.h>
 
 #if defined(HAVE_CONFIG_H)
-#include "config/raven-config.h"
+#include <config/raven-config.h>
 #endif
 
 #ifdef WIN32

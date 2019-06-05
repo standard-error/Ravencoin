@@ -6,7 +6,7 @@
 #ifndef RAVEN_CONSENSUS_TX_VERIFY_H
 #define RAVEN_CONSENSUS_TX_VERIFY_H
 
-#include "amount.h"
+#include <amount.h>
 
 #include <stdint.h>
 #include <vector>

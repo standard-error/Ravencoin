@@ -7,7 +7,7 @@
 #define RAVEN_ZMQ_ZMQCONFIG_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/raven-config.h"
+#include <config/raven-config.h>
 #endif
 
 #include <stdarg.h>
@@ -17,8 +17,8 @@
 #include <zmq.h>
 #endif
 
-#include "primitives/block.h"
-#include "primitives/transaction.h"
+#include <primitives/block.h>
+#include <primitives/transaction.h>
 
 void zmqError(const char *str);
 

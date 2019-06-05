@@ -7,7 +7,7 @@
 #ifndef RAVEN_WALLET_FEES_H
 #define RAVEN_WALLET_FEES_H
 
-#include "amount.h"
+#include <amount.h>
 
 class CBlockPolicyEstimator;
 class CCoinControl;

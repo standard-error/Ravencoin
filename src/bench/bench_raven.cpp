@@ -5,12 +5,12 @@
 
 #include <chainparamsbase.h>
 #include <chainparams.h>
-#include "bench.h"
-#include "crypto/sha256.h"
-#include "key.h"
-#include "validation.h"
-#include "util.h"
-#include "random.h"
+#include <bench/bench.h>
+#include <crypto/sha256.h>
+#include <key.h>
+#include <validation.h>
+#include <util.h>
+#include <random.h>
 
 int
 main(int argc, char **argv)

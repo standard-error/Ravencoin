@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "restricteddb.h"
-#include "validation.h"
+#include <assets/restricteddb.h>
+#include <validation.h>
 
 #include <boost/thread.hpp>
 

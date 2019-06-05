@@ -7,21 +7,21 @@
 #include <script/standard.h>
 #include <util.h>
 #include <validation.h>
-#include "tx_verify.h"
+#include <consensus/tx_verify.h>
 
-#include "consensus.h"
-#include "primitives/transaction.h"
-#include "script/interpreter.h"
-#include "validation.h"
+#include <consensus/consensus.h>
+#include <primitives/transaction.h>
+#include <script/interpreter.h>
+#include <consensus/validation.h>
 #include <cmath>
 #include <wallet/wallet.h>
 #include <base58.h>
 #include <tinyformat.h>
 
 // TODO remove the following dependencies
-#include "chain.h"
-#include "coins.h"
-#include "utilmoneystr.h"
+#include <chain.h>
+#include <coins.h>
+#include <utilmoneystr.h>
 
 bool IsFinalTx(const CTransaction &tx, int nBlockHeight, int64_t nBlockTime)
 {

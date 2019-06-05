@@ -4,19 +4,19 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/raven-config.h"
+#include <config/raven-config.h>
 #endif
 
-#include "optionsdialog.h"
-#include "ui_optionsdialog.h"
+#include <qt/optionsdialog.h>
+#include <ui_optionsdialog.h>
 
-#include "ravenunits.h"
-#include "guiutil.h"
-#include "optionsmodel.h"
+#include <qt/ravenunits.h>
+#include <qt/guiutil.h>
+#include <qt/optionsmodel.h>
 
-#include "validation.h" // for DEFAULT_SCRIPTCHECK_THREADS and MAX_SCRIPTCHECK_THREADS
-#include "netbase.h"
-#include "txdb.h" // for -dbcache defaults
+#include <validation.h> // for DEFAULT_SCRIPTCHECK_THREADS and MAX_SCRIPTCHECK_THREADS
+#include <netbase.h>
+#include <txdb.h> // for -dbcache defaults
 
 #include <QDataWidgetMapper>
 #include <QDir>

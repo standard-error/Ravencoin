@@ -5,7 +5,7 @@
 
 #define BOOST_TEST_MODULE Raven Test Suite
 
-#include "net.h"
+#include <net.h>
 
 #include <boost/test/unit_test.hpp>
 

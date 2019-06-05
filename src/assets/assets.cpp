@@ -20,15 +20,15 @@
 #include <consensus/validation.h>
 #include <rpc/protocol.h>
 #include <net.h>
-#include "assets.h"
-#include "assetdb.h"
-#include "assettypes.h"
-#include "protocol.h"
-#include "wallet/coincontrol.h"
-#include "utilmoneystr.h"
-#include "coins.h"
-#include "wallet/wallet.h"
-#include "LibBoolEE.h"
+#include <assets/assets.h>
+#include <assets/assetdb.h>
+#include <assets/assettypes.h>
+#include <protocol.h>
+#include <wallet/coincontrol.h>
+#include <utilmoneystr.h>
+#include <coins.h>
+#include <wallet/wallet.h>
+#include <LibBoolEE.h>
 
 #define SIX_MONTHS 15780000 // Six months worth of seconds
 

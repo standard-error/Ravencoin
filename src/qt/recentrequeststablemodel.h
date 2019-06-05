@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_RECENTREQUESTSTABLEMODEL_H
 #define RAVEN_QT_RECENTREQUESTSTABLEMODEL_H
 
-#include "walletmodel.h"
+#include <qt/walletmodel.h>
 
 #include <QAbstractTableModel>
 #include <QStringList>

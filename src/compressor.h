@@ -7,9 +7,9 @@
 #ifndef RAVEN_COMPRESSOR_H
 #define RAVEN_COMPRESSOR_H
 
-#include "primitives/transaction.h"
-#include "script/script.h"
-#include "serialize.h"
+#include <primitives/transaction.h>
+#include <script/script.h>
+#include <serialize.h>
 
 class CKeyID;
 class CPubKey;

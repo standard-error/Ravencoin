@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_REISSUEASSETDIALOG_H
 #define RAVEN_QT_REISSUEASSETDIALOG_H
 
-#include "walletmodel.h"
+#include <qt/walletmodel.h>
 
 #include <QDialog>
 

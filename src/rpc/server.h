@@ -7,9 +7,9 @@
 #ifndef RAVEN_RPCSERVER_H
 #define RAVEN_RPCSERVER_H
 
-#include "amount.h"
-#include "rpc/protocol.h"
-#include "uint256.h"
+#include <amount.h>
+#include <rpc/protocol.h>
+#include <uint256.h>
 
 #include <list>
 #include <map>

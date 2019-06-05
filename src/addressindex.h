@@ -6,9 +6,9 @@
 #ifndef RAVEN_ADDRESSINDEX_H
 #define RAVEN_ADDRESSINDEX_H
 
-#include "uint256.h"
-#include "amount.h"
-#include "script/script.h"
+#include <uint256.h>
+#include <amount.h>
+#include <script/script.h>
 
 static const std::string RVN = "RVN";
 

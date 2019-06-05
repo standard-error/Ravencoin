@@ -7,8 +7,8 @@
 #ifndef RAVEN_NETMESSAGEMAKER_H
 #define RAVEN_NETMESSAGEMAKER_H
 
-#include "net.h"
-#include "serialize.h"
+#include <net.h>
+#include <serialize.h>
 
 class CNetMsgMaker
 {

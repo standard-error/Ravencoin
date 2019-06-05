@@ -6,7 +6,7 @@
 #ifndef RAVEN_RPC_MINING_H
 #define RAVEN_RPC_MINING_H
 
-#include "script/script.h"
+#include <script/script.h>
 
 #include <univalue.h>
 

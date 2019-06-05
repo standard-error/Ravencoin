@@ -6,9 +6,9 @@
 #ifndef RAVENCOIN_ASSET_PROTOCOL_H
 #define RAVENCOIN_ASSET_PROTOCOL_H
 
-#include "amount.h"
-#include "tinyformat.h"
-#include "assettypes.h"
+#include <amount.h>
+#include <tinyformat.h>
+#include <assets/assettypes.h>
 
 #include <string>
 #include <set>

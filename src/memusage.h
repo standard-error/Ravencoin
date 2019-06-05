@@ -6,7 +6,7 @@
 #ifndef RAVEN_MEMUSAGE_H
 #define RAVEN_MEMUSAGE_H
 
-#include "indirectmap.h"
+#include <indirectmap.h>
 
 #include <stdlib.h>
 

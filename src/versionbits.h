@@ -6,7 +6,7 @@
 #ifndef RAVEN_CONSENSUS_VERSIONBITS
 #define RAVEN_CONSENSUS_VERSIONBITS
 
-#include "chain.h"
+#include <chain.h>
 #include <map>
 
 /** What block version to use for new blocks (pre versionbits) */

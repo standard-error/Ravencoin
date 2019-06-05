@@ -7,7 +7,7 @@
 #define RAVEN_CLIENTVERSION_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/raven-config.h"
+#include <config/raven-config.h>
 #endif //HAVE_CONFIG_H
 
 // Check that required client information is defined

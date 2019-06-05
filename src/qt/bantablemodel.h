@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_BANTABLEMODEL_H
 #define RAVEN_QT_BANTABLEMODEL_H
 
-#include "net.h"
+#include <net.h>
 
 #include <QAbstractTableModel>
 #include <QStringList>

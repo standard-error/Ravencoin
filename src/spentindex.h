@@ -6,8 +6,8 @@
 #ifndef RAVEN_SPENTINDEX_H
 #define RAVEN_SPENTINDEX_H
 
-#include "uint256.h"
-#include "amount.h"
+#include <uint256.h>
+#include <amount.h>
 
 struct CSpentIndexKey {
     uint256 txid;

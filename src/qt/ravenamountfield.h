@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_RAVENAMOUNTFIELD_H
 #define RAVEN_QT_RAVENAMOUNTFIELD_H
 
-#include "amount.h"
+#include <amount.h>
 
 #include <QWidget>
 

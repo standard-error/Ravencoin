@@ -6,7 +6,7 @@
 #ifndef RAVEN_ZMQ_ZMQPUBLISHNOTIFIER_H
 #define RAVEN_ZMQ_ZMQPUBLISHNOTIFIER_H
 
-#include "zmqabstractnotifier.h"
+#include <zmq/zmqabstractnotifier.h>
 
 class CBlockIndex;
 class CMessage;

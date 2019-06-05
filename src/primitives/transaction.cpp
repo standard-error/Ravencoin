@@ -5,11 +5,11 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <streams.h>
-#include "primitives/transaction.h"
+#include <primitives/transaction.h>
 
-#include "hash.h"
-#include "tinyformat.h"
-#include "utilstrencodings.h"
+#include <hash.h>
+#include <tinyformat.h>
+#include <utilstrencodings.h>
 
 std::string COutPoint::ToString() const
 {

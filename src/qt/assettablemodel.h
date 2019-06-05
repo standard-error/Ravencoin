@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_ASSETTABLEMODEL_H
 #define RAVEN_QT_ASSETTABLEMODEL_H
 
-#include "amount.h"
+#include <amount.h>
 
 #include <QAbstractTableModel>
 #include <QStringList>

@@ -6,7 +6,7 @@
 #ifndef RAVEN_QT_WALLETMODELTRANSACTION_H
 #define RAVEN_QT_WALLETMODELTRANSACTION_H
 
-#include "walletmodel.h"
+#include <qt/walletmodel.h>
 
 #include <QObject>
 

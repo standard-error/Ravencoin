@@ -7,8 +7,8 @@
 #include <wallet/wallet.h>
 #include <script/ismine.h>
 #include <base58.h>
-#include "messages.h"
-#include "messagedb.h"
+#include <assets/messages.h>
+#include <assets/messagedb.h>
 #include <primitives/block.h>
 
 
